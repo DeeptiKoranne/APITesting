@@ -20,7 +20,7 @@ public class UserAPITest {
 		
 		//step 2 : create and send the request 
 		//step 3 : enter the data
-		HttpGet requestMsg = new HttpGet("https://gorest.co.in/public-api/users/137");
+		HttpGet requestMsg = new HttpGet("https://gorest.co.in/public-api/users/136");
 		
 		//step 4 : submit/send the request and get the result
 		HttpResponse response = client.execute(requestMsg);
