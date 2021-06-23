@@ -96,13 +96,13 @@ public class UserAPITest_NG {
 	}
 	@Test
 	public void testGetwithResponseHeader () throws ClientProtocolException, IOException {
-		HttpGet request = new HttpGet("https://gorest.co.in/public-api/users/");
-		CloseableHttpClient httpClient = HttpClients.createDefault();
-        CloseableHttpResponse response = httpClient.execute(request); 
-
-       HttpEntity entity = response.getEntity();
-       Header headers = entity.getContentType();
-       System.out.println(headers);
+//		HttpGet request = new HttpGet("https://gorest.co.in/public-api/users/");
+//		CloseableHttpClient httpClient = HttpClients.createDefault();
+//        CloseableHttpResponse response = httpClient.execute(request); 
+//
+//       HttpEntity entity = response.getEntity();
+//       Header headers = entity.getContentType();
+//       System.out.println(headers);
    
 	}
 	
